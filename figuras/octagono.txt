@@ -1,0 +1,3 @@
+
+El perimetro del octagono es: 64.0
+El area del octagono es: 288.0

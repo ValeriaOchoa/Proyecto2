@@ -1,0 +1,3 @@
+
+El perimetro del eneagono es: 9.0
+El area del eneagono es: 9.0

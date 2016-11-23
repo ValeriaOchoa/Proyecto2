@@ -71,22 +71,28 @@ def heptagono():
      heptagono.close()
 
 def octagono():
-     print("\n\t\t-----OCTÁGONO-----")
-     lados = float(input("\nIngrese el valor de la longitud de los lados: "))
-     apotema = float(input("Ingrese el valor de la apotema:  "))
-     perimetro = (8*lados)
-     area = (4*lados*apotema) 
-     print("El perimetro del octágono es: ",perimetro)
-     print("El area del octágono es: ",area)
+    octagono= open('octagono.txt','a')
+    print("\n\t\t-----OCTÁGONO-----")
+    lados = float(input("\nIngrese el valor de la longitud de los lados: "))
+    apotema = float(input("Ingrese el valor de la apotema:  "))
+    perimetro = (8*lados)
+    area = (4*lados*apotema)
+    print("El perimetro del octágono es: ",perimetro)
+    print("El area del octágono es: ",area)
+    octagono.write("\nEl perimetro del octagono es: "+ str(perimetro)+"\nEl area del octagono es: "+str(area))
+    octagono.close()
      
-def enagono():
-     print("\n\t\t-----ENEÁGONO-----")
-     lados = float(input("\nIngrese el valor de la longitud de los lados: "))
-     apotema = float(input("Ingrese el valor de la apotema:  "))
-     perimetro = (9*lados)
-     area = (perimetro*apotema)/2 
-     print("El perimetro del eneágono es: ",perimetro)
-     print("El area del eneágono es: ",area)
+def eneagono():
+    eneagono= open('eneagono.txt','a')
+    print("\n\t\t-----ENEÁGONO-----")
+    lados = float(input("\nIngrese el valor de la longitud de los lados: "))
+    apotema = float(input("Ingrese el valor de la apotema:  "))
+    perimetro = (9*lados)
+    area = (perimetro*apotema)/2
+    print("El perimetro del eneágono es: ",perimetro)
+    print("El area del eneágono es: ",area)
+    eneagono.write("\nEl perimetro del eneagono es: "+ str(perimetro)+"\nEl area del eneagono es: "+str(area))
+    eneagono.close()
      
 def decagono():
      print(" \n\t\t-----DECEÁGONO-----")
