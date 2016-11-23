@@ -9,8 +9,10 @@ print("\t\t\t  Escuela de Formación de Tecnólogos")
 print("\t\t\t\t  Programación Avanzada")
 print("\t\t\t     Diana Bonilla - Valeria Ochoa")
 
+nuevo = open ('Resultado.txt','a')
+arch=open('Amistad.txt','r')
 def leertxt():
-    arch=open('Amistad.txt','r')
+    
     total=0
     linea=arch.readline()
     while linea !="":
@@ -19,5 +21,11 @@ def leertxt():
         total=len(linea)+total
         print (total)
     arch.close()
+    nuevo.write("Nuevo archivo: "+str(total))
+
+    nuevo.close()
 leertxt()
+
+
+
 
