@@ -7,6 +7,7 @@
 def creartxt():
     archi=open('datos.txt','w')
     archi.close()
+    
 def grabartxt():
     archi = open('datos.txt','a')
     archi.write('Diana Bonilla\n')
@@ -21,4 +22,10 @@ def leertxt():
     while linea!="":
         print(linea)
         linea=archi.readline()
+    archi.close()
+    
+def leertxtenlista():
+    archi = open('datos.txt','r')
+    lineas = archi.readlines()
+    print(lineas)
     archi.close()
