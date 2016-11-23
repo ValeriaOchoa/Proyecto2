@@ -1,0 +1,3 @@
+
+El perimetro del pentagono es: 30.0
+El area del pentagono es: 45.0

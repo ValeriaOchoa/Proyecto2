@@ -1,0 +1,3 @@
+El perimetro del cuadrado es: 20.0
+El area del cuadrado es: 25.0El perimetro del cuadrado es: 24.0
+El area del cuadrado es: 36.0

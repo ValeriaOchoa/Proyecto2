@@ -1,0 +1,2 @@
+El perimetro del triagulo es: 11.0
+El area del triagulo es: 6.0

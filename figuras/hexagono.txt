@@ -1,0 +1,3 @@
+
+El perimetro del hexagono es: 54.0
+El area del hexagono es: 162.0

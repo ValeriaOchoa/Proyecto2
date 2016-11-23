@@ -1,0 +1,3 @@
+
+El perimetro del heptagono es: 42.0
+El area del heptagono es: 63.0
