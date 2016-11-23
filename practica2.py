@@ -14,3 +14,11 @@ def grabartxt():
     archi.close()
 creartxt()
 grabartxt()
+
+def leertxt():
+    archi=open('datos.txt','r')
+    linea=archi.readline()
+    while linea!="":
+        print(linea)
+        linea=archi.readline()
+    archi.close()
