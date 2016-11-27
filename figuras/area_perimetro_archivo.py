@@ -95,31 +95,40 @@ def eneagono():
     eneagono.close()
      
 def decagono():
-     print(" \n\t\t-----DECEÁGONO-----")
-     lados = float(input("\nIngrese el valor de la longitud de los lados: "))
-     apotema = float(input("Ingrese el valor de la apotema:  "))
-     perimetro = (10*lados)
-     area = (perimetro*apotema)/2 
-     print("El perimetro del decágono es: ",perimetro)
-     print("El area del decágono es: ",area)
+    decagono= open('decagono.txt','a')
+    print(" \n\t\t-----DECEÁGONO-----")
+    lados = float(input("\nIngrese el valor de la longitud de los lados: "))
+    apotema = float(input("Ingrese el valor de la apotema:  "))
+    perimetro = (10*lados)
+    area = (perimetro*apotema)/2 
+    print("El perimetro del decágono es: ",perimetro)
+    print("El area del decágono es: ",area)
+    decagono.write("\nEl perimetro del decagono es: "+ str(perimetro)+"\nEl area del decagono es: "+str(area))
+    decagono.close()
      
 def endecagono():
-     print("\n\t\t-----ENDECÁGONO-----")
-     lados = float(input("\nIngrese el valor de la longitud de los lados: "))
-     apotema = float(input("Ingrese el valor de la apotema:  "))
-     perimetro = (11*lados)
-     area = (perimetro*apotema)/2 
-     print("El perimetro del endecágono es: ",perimetro)
-     print("El area del endecágono es: ",area)
+    endecagono= open('endecagono.txt','a')
+    print("\n\t\t-----ENDECÁGONO-----")
+    lados = float(input("\nIngrese el valor de la longitud de los lados: "))
+    apotema = float(input("Ingrese el valor de la apotema:  "))
+    perimetro = (11*lados)
+    area = (perimetro*apotema)/2 
+    print("El perimetro del endecágono es: ",perimetro)
+    print("El area del endecágono es: ",area)
+    endecagono.write("\nEl perimetro del endecagono es: "+ str(perimetro)+"\nEl area del endecagono es: "+str(area))
+    endecagono.close()
      
 def dodecagono():
-     print("\n\t\t-----DODECÁGONO-----")
-     lados = float(input("\nIngrese el valor de la longitud de los lados: "))
-     apotema = float(input("Ingrese el valor de la apotema:  "))
-     perimetro = (12*lados)
-     area = (perimetro*apotema)/2 
-     print("El perimetro del dodecágono es: ",perimetro)
-     print("El area del dodecágono es: ",area)
+    dodecagono= open('dodecagono.txt','a')
+    print("\n\t\t-----DODECÁGONO-----")
+    lados = float(input("\nIngrese el valor de la longitud de los lados: "))
+    apotema = float(input("Ingrese el valor de la apotema:  "))
+    perimetro = (12*lados)
+    area = (perimetro*apotema)/2 
+    print("El perimetro del dodecágono es: ",perimetro)
+    print("El area del dodecágono es: ",area)
+    dodecagono.write("\nEl perimetro del dodecagonoes: "+ str(perimetro)+"\nEl area del dodecagono es: "+str(area))
+    dodecagono.close()
 
 def main():
     print("\t\t\t     Escuela Politécnica Nacional")

@@ -1,0 +1,3 @@
+
+El perimetro del dodecagonoes: 36.0
+El area del dodecagono es: 72.0

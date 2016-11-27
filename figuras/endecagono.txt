@@ -1,0 +1,3 @@
+
+El perimetro del endecagono es: 2574.0
+El area del endecagono es: 3861.0

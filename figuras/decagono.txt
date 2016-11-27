@@ -1,0 +1,3 @@
+
+El perimetro del decagono es: 20.0
+El area del decagono es: 30.0
